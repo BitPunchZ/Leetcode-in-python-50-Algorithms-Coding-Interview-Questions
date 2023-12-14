@@ -19,7 +19,7 @@ class Solution:
                 l1 = l1.next
             if(l2!=None):
                 sum+=l2.val
-                l2 = l2.val
+                l2 = l2.next
             
             carry = int(sum/10)
             pointer.next  = ListNode(sum%10)
